@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import { Component } from "react";
 
 const api_key = process.env.REACT_APP_NASA_KEY;    
-const APIurl = `https://api.nasa.gov/mars-photos/api/v1/rovers/Perseverance/latest_photos?api_key=${api_key}`;
+const APIurl = `https://api.nasa.gov/mars-photos/api/v1/rovers/Perseverance/latest_photos?api_key=DEMO_KEY`;
 
 class Perserverance extends Component {
     constructor(props) {
