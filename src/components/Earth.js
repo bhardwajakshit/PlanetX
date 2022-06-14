@@ -5,7 +5,7 @@ import moment from 'moment';
 
 const api_key = process.env.REACT_APP_NASA_KEY;
 
-const ePhotoAPI = 'https://api.nasa.gov/EPIC/api/natural/images?api_key='+api_key;
+const ePhotoAPI = 'https://api.nasa.gov/EPIC/api/natural/images?api_key=DEMO_KEY';
 
 class Earth extends Component {
     constructor(props) {
