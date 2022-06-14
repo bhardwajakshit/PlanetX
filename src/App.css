@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: 'NasalizationRg-Regular';
+  color: #ffffff;
+  font-size: 19px;
+  background-image: url(./images/blackhole.png);
+  background-size: cover;
+}
+
+.desText {
+    text-align: center;
+}
+
+.mars-photo{
+    width: 50%;
+    flex-grow: 1;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.earth-photo {
+  width: 30%;
+  flex-grow: 1;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading {
+  margin-left: 50px;
+  color:#861111;
+  font-size: 45px;
+}
+
+/* --navbar-- */
+.navbar {
+  background-color: rgba(29, 29, 29, 0.8);
+  display:flex;
+  justify-content: center;
+}
+
+a{
+  color: #861111;
+}
+
+.github{
+  position: absolute;
+  right: 50px;
+}
+
+.link {
+  color: #c7c7c7;
+  display: inline-block;
+  padding: 3px 20px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  text-align: center;
+}
+
+.link:hover {
+  color: #5e5e5e;
+  transform: scale(1.2);
+}
+
+/* --nasa_photo-- */
+.nasa-photo {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.nasa-photo img {
+  width: 50%;
+  margin-right: 50px;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+.nasa-photo h1 {
+  color:#861111;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nasa-photo p {
+  color:#c7c7c7;
+}
+
+.nasa-photo .date {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.nasa-photo .explanation {
+  color: rgb(165, 165, 165);
+}
+
+@media (max-width: 1280px) {
+  .nasa-photo {
+    display: block;
+  }
+
+  .nasa-photo img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.home {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.animate-character
+{
+  background-image: linear-gradient(
+    -225deg,
+    #fff800 0%,
+    #7a00cc 40%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.home-link-right {
+  position: absolute;
+  right: 0;
+  font-size: 30px;
+  padding: 50px 80px;
+  color:#db3300;
+  border-radius: 50%;
+  transition: 0.5s ease all;
+  text-decoration: none;
+}
+
+.stars {
+  margin-top: 130px;
+  float: left;
+  margin-left: 70px;
+}
+
+.wildfire {
+  margin-top: 130px;
+  float: right;
+  margin-right: 120px;
+}
+
+.earth {
+  float: left;
+  margin-left: 120px;
+}
+
+.mars {
+  float: right;
+  margin-right: 40px;
+}
+
+.home-link {
+  background-image: linear-gradient(
+    -225deg,
+    #c44f0b 0%,
+    #811a00 29%,
+    #d40000 67%,
+    #c44f0b 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 30px;
+  padding: 20px 50px;
+  color:#db3300;
+  transition: 0.5s ease all;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  color: #861111;
+  transform: scale(0.9);
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
